@@ -3,6 +3,12 @@ Cypress.Commands.add('preencher_inscricao', (username, telefone, email) => {
   cy.get('[name="pessoa.telefonePrincipal"]').type(telefone)
   cy.get('[name="pessoa.emailPrincipal"]').type(email)
 })
+
+Cypress.Commands.add('preencher_formulario', (username, email, telefone) => {
+  cy.get('[name="pessoa.nome"]').type(username)
+  cy.get('[name="pessoa.emailPrincipal"]').type(email)
+  cy.get('[name="pessoa.telefonePrincipal"]').type(telefone)
+})
 // Helper: tenta achar input/textarea/select associado a um texto (label ou placeholder)
 // ***********************************************
 // This example commands.js shows you how to

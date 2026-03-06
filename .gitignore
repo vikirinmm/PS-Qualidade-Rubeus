@@ -1,0 +1,23 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cypress artifacts
+cypress/videos/
+cypress/screenshots/
+cypress/reports/
+
+# Mochawesome (se usar)
+mochawesome-report/
+mochawesome.json
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
+
+# Word temp files
+~$*.docx
+*.docx
