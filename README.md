@@ -1,4 +1,4 @@
-# PS Qualidade – Rubeus
+# QA Test – Rubeus Quality Assessment
 
 Este repositório contém a análise de qualidade realizada como parte de um teste técnico de QA.
 
