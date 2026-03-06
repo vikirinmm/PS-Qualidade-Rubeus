@@ -1,6 +1,7 @@
 # PS Qualidade – Rubeus
 
 Este repositório contém a análise de qualidade realizada como parte de um teste técnico de QA.
+
 ## Escopo do teste
 Foram analisadas duas páginas disponibilizadas para avaliação:
 - https://qualidade.apprbs.com.br/certificacao  
@@ -15,6 +16,7 @@ O relatório completo contém:
 - passos para reprodução
 - resultado esperado e resultado atual
 - evidências dos problemas identificados
+
 O relatório e as evidências podem ser encontrados na pasta:
 📁 **docs/**
 
@@ -26,14 +28,17 @@ Os testes incluem verificações como:
 - exibição de evento desatualizado
 - validação de campos do formulário
 - comportamento inesperado no envio do formulário
+
 Os testes automatizados estão localizados em:
 📁 **cypress/e2e/**
+
 Arquivos principais:
 - certificacao.cy.js  
 - site.cy.js
-- 
+
 ---
 # Como executar os testes
+
 ### 1. Clonar o repositório
 git clone https://github.com/vikirinmm/PS-Qualidade-Rubeus
 ### 2. Entrar na pasta do projeto
